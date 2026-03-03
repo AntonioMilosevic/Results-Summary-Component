@@ -21,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(0, 0%, 100%);
+  border-radius: 0 15px 15px 0;
 }
 
 .wrapper .p {
@@ -47,7 +48,7 @@ body {
   padding: 10px;
   height: 100%;
   width: 50%;
-  background-color: transparent;
+  background-color: transparent hsl(241, 100%, 89%);
   text-align: center;
   border-radius: 0 15px 15px 0;
 }
@@ -76,10 +77,18 @@ body {
 .word4 {
   border: 2px solid black;
   border-radius: 50%;
-  background-color: hsla(241, 72%, 46%, 0);
+  background-color: hsla(241, 60%, 33%, 1);
   width: 200px;
   padding: 10px;
-  border: -;
+  color: aliceblue;
+  /* background-color: hsl(222, 27%, 30%);
+  width: 120px;
+  height: 120px;
+  font-size: 75%;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.3s ease;
+  border: none; */
 }
 
 .circle {
